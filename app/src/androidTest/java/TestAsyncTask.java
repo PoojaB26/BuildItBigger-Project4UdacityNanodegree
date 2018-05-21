@@ -6,9 +6,9 @@
 
 import android.support.test.runner.AndroidJUnit4;
 
+
 import com.udacity.gradle.builditbigger.EndpointsAsyncTask;
 import com.udacity.gradle.builditbigger.MainActivityFragment;
-
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
