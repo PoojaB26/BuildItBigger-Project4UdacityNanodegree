@@ -40,7 +40,7 @@ public class MainActivityFragment extends Fragment {
             }
         });
 
-        progressBar = (ProgressBar) root.findViewById(R.id.joke_progress_bar);
+        progressBar = root.findViewById(R.id.joke_progress_bar);
         progressBar.setVisibility(View.GONE);
         return root;
     }

@@ -26,7 +26,6 @@ public class MainActivityFragment extends Fragment {
     private ProgressBar progressBar = null;
     public String joke_loaded = null;
     public boolean testFlag = false;
-    PublisherInterstitialAd mPublisherInterstitialAd = null;
 
 
     @Override
@@ -70,7 +69,6 @@ public class MainActivityFragment extends Fragment {
             Context context = getActivity();
             Intent intent = new Intent(context, JokeDisplayActivity.class);
             intent.putExtra(JokeDisplayActivity.JOKE_KEY, joke_loaded);
-            //Toast.makeText(context, loadedJoke, Toast.LENGTH_LONG).show();
             context.startActivity(intent);
             progressBar.setVisibility(View.GONE);
         }
