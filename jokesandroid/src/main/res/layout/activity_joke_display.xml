@@ -9,5 +9,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/joke_test"/>
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/joke_test"
+        tools:text="HI JOKE"/>
 </RelativeLayout>
