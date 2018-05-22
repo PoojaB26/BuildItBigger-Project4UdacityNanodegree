@@ -11,13 +11,11 @@ import com.poojab26.jokejava.JokeSupplier;
 
 
 public class MainActivity extends AppCompatActivity {
-    JokeSupplier jokeSupplier;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        jokeSupplier = new JokeSupplier();
     }
 
 
@@ -41,10 +39,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public void tellJoke(View view) {
-        Toast.makeText(this, jokeSupplier.getJoke(), Toast.LENGTH_SHORT).show();
     }
 
 
